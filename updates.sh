@@ -9,3 +9,4 @@ sudo RPI_REBOOT=1 BRANCH=stable PRUNE_MODULES=1 rpi-update
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo usermod -aG docker pi
+logout
